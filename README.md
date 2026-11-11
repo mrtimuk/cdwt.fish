@@ -7,13 +7,13 @@ A lightweight [Fish shell](https://fishshell.com) helper to quickly `cd` into an
 ### Using [Fisher](https://github.com/jorgebucaran/fisher) (recommended)
 
 ```fish
-fisher install <your-username>/cdwt.fish
+fisher install mrtimuk/cdwt.fish
 ```
 
 ### Using [Oh My Fish](https://github.com/oh-my-fish/oh-my-fish)
 
 ```fish
-omf install [https://github.com/](https://github.com/)<your-username>/cdwt.fish
+omf install https://github.com/mrtimuk/cdwt.fish
 ```
 
 ### Manual
@@ -21,8 +21,8 @@ omf install [https://github.com/](https://github.com/)<your-username>/cdwt.fish
 Clone this repo or copy the files directly into your Fish configuration directory:
 
 ```fish
-curl -sLo ~/.config/fish/functions/cdwt.fish [https://raw.githubusercontent.com/](https://raw.githubusercontent.com/)<your-username>/cdwt.fish/main/functions/cdwt.fish
-curl -sLo ~/.config/fish/completions/cdwt.fish [https://raw.githubusercontent.com/](https://raw.githubusercontent.com/)<your-username>/cdwt.fish/main/completions/cdwt.fish
+curl -sLo ~/.config/fish/functions/cdwt.fish https://raw.githubusercontent.com/mrtimuk/cdwt.fish/main/functions/cdwt.fish
+curl -sLo ~/.config/fish/completions/cdwt.fish https://raw.githubusercontent.com/mrtimuk/cdwt.fish/main/completions/cdwt.fish
 ```
 
 ## Usage
@@ -40,6 +40,3 @@ feature-auth   (/Users/user/dev/project-auth)
 fix-nav        (/Users/user/dev/project-nav)
 ```
 
-## License
-
-[MIT](LICENSE)
